@@ -16,7 +16,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/jpg" href="/imgs/pictureBalanca.jpg">
         <link rel="stylesheet" href="/css/estilos.css">
-        <title>Exemplo 4.2 - Livro lógica de programação</title>
+        <title>Calculadora de Peso</title>
     </head>
     <body>
         <img src="/imgs/pictureBalanca.jpg" alt="Balança para pesar">
