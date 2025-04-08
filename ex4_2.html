@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/jpg" href="/imgs/pictureBalanca.jpg">
+        <link rel="stylesheet" href="/css/estilos.css">
+        <title>Exemplo 4.2 - Livro lógica de programação</title>
+    </head>
+    <body>
+        <img src="/imgs/pictureBalanca.jpg" alt="Balança para pesar">
+        <h1>Programa calculo do peso ideal</h1>
+
+        <form id="inForm">
+          <p>
+            <label for="inNome">Nome:</label>
+            <input type="text" id="inNome" name="nome">
+          </p>
+          <p>
+           <label for="inSexo">Sexo:</label>
+           <input type="radio" id="inMasc" name="sexo"> Masculino
+           <input type="radio" id="inFem" name="sexo"> Feminino
+          </p>
+
+          <p>
+           <label for="inAltura">Altura:</label>
+           <input type="number" min="0" step="0.01" id="inAltura">
+          </p>
+
+          <input type="submit" value="Calcular Peso ideal">
+          <input type="reset" value="Limpar campos">
+
+        </form>
+
+        <h3 id="msnSaida"></h3>
+
+        <script src="/js/ex4_2.js"></script>
+
+    </body>
+</html>
